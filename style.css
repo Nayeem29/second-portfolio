@@ -2,7 +2,15 @@ body {
   font-family: "Roboto Mono", monospace;
   margin: 0;
 }
-section {
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 300;
+}
+.flexible-container {
   display: flex;
   margin-bottom: 10%;
 }
@@ -49,4 +57,32 @@ section {
   padding: 10px 5px;
   margin-left: 20px;
   text-transform: uppercase;
+}
+#exp {
+  padding-left: 20px;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.developer-area {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  box-shadow: 10px 5px 20px grey;
+}
+#baby-web {
+  border-left: 5px solid blueviolet;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#pro-web {
+  border-left: 5px solid blueviolet;
+  border-image: linear-gradient(green, yellow);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+  margin-top: 2%;
 }
